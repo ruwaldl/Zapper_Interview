@@ -1,6 +1,6 @@
 # Zapper_Interview
 
-save-settings 
+**save-settings **
 Parameters
 settingData = Data to be stored
 key = Identifier to be stored ( user => userid, settings=> settingKey)
@@ -15,8 +15,11 @@ Settings Example.
 settingData = WhatsApp Notifications Enabled
 key = 9
 type = settings
+
+
 ------------------------------------------------------------------------------------------------------------------
-get-settings
+
+**get-settings**
 Parameters
 type = Identifier if one is storing user settings or general settings
 
